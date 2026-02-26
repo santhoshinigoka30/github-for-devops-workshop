@@ -1,0 +1,48 @@
+ls -a
+    2  pwd
+    3  git init
+    4  ls
+    5  ls -a
+    6  git status
+    7  clear
+    8  ls
+    9  dir
+   10  git status
+   11  clear
+   12  git add testing.py
+   13  git status
+   14  git rm --cached
+   15  git status
+   16  git rm --cached <testing.py>
+   17  git rm --cached testing.py
+   18  git status
+   19  git add .
+   20  git status
+   21  git commit -m "added testing files"
+   22  git status
+   23  rm testing.py
+   24  ls
+   25  git status
+   26  git restore testing.py
+   27  git status
+   29  git restore testing.py
+   30  git status
+   31  git log
+   32  git show
+   33  echo 'print("hello")' > testing.py
+   34  git add testing.py
+   35  git commit -m "added file"
+   36  git show
+   37  git status
+   38  ls
+   39  cat testing.py
+   40  git add git_commands.txt
+   45  git status
+   46  git commit -m "added git commands"
+   47  git status
+   48  git remote add origin 
+   49  git remote -v
+   50  git remote 
+   51  
+   52  git remote -v
+   53  git push origin master
